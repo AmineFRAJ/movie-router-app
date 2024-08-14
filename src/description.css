@@ -1,0 +1,45 @@
+.desc-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  margin-top: 20px;
+}
+
+.desc-content {
+  margin-bottom: 20px;
+}
+
+.movie-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #343a40;
+}
+
+.movie-trailer {
+  text-align: right;
+}
+
+.movie-trailer iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+  border-radius: 8px;
+}
+
+.go-back-button {
+  display: block;
+  
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.go-back-button:hover {
+  background-color: #0056b3;
+}
